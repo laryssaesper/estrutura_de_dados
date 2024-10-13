@@ -8,7 +8,7 @@
 
 typedef struct{
 	int R, F, Q;
-	int vet[TAM];
+	int vet[TAM]
 }filacircular;
 
 void enfileirar(int valor, filacircular*p){
@@ -61,7 +61,6 @@ int main(void){
 	}
 	
 	for(int i=0; i<TAM; i++){
-		printf("\nRetirando...");
 		printf("\n%d", desenfileirar(&fila));
 	}
 	
