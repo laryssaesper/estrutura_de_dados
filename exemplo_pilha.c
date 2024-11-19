@@ -3,7 +3,7 @@
 //fazer uma pilha com 10 posições de inteiro
 
 //constante
-#define TAM 10 //#define nome conteúdo
+#define TAM 15 //#define nome conteúdo
 
 //define a struct
 typedef struct{
@@ -49,7 +49,7 @@ int main(void){
     
     //carregar pilha com for
     for(int i=0; i<TAM; i++){
-        printf("\nDigite p valor a ser empilhado: ");
+        printf("\nDigite o valor a ser empilhado: ");
         scanf("%d", &valor);
         empilha(valor,&pilha); //chama função empilha e aloca os valores na struct com nome pilha
         //ao invés de seta para o ponteiro, chama o & para endereço de memória

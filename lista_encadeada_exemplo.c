@@ -31,7 +31,7 @@ no *crialista(int n){
 }
 
 void escrevelista(no*p){
-	while(p!=NULL);{
+	while(p!=NULL){
 		printf("%d\t", p->dado);
 		p=p->link;
 	}

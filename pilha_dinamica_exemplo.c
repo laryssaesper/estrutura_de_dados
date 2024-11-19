@@ -27,7 +27,7 @@ no *crialista(int n){
 }
 
 void escrevelista(no*p){
-    while(p!=NULL);{
+    while(p!=NULL){
         printf("%d\t", p->dado);
         p=p->link;
     }
@@ -40,7 +40,7 @@ int main(void){
     printf("Criando pilha\n");
     
     do{
-        printf("\nEntre com o número de nós: ");
+        printf("\nEntre com o numero de nos: ");
         scanf("%d", &n);
     }
     while(n<0);{

@@ -1,14 +1,14 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-#define TAM 10
+#define TAM 8
 
 //q é uma variável auxiliar que irá fazer a adição de novos conteúdos, 
 //fazendo a fila circular e não desperdiçar espaço na memória
 
 typedef struct{
 	int R, F, Q;
-	int vet[TAM]
+	int vet[TAM];
 }filacircular;
 
 void enfileirar(int valor, filacircular*p){

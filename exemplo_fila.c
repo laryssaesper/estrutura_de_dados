@@ -1,7 +1,7 @@
 #include <stdio.h> //padrão
 #include <stdlib.h> //ponteiro
 
-#define TAM 10 //constante
+#define TAM 8 //constante
 
 //definir struct
 typedef struct{
